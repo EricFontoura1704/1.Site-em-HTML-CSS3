@@ -1,0 +1,153 @@
+*{
+   margin: 0; 
+    
+}
+
+body{
+    background-color: gray; color:black; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; 
+
+}
+
+.container{
+    width: 80%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.banner{
+    background-color: #3266df;
+    height: 150px;
+    
+}
+
+.banner img{
+    width: 100%;
+}
+
+.menu{
+    background-color: crimson;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu a:link , a:visited{
+    color: white;
+    padding: 10px 25px;
+    border: solid 1px ;
+    transition: 0.8s;
+}
+
+.menu a:hover{
+    background-color: darkblue;
+    transition: 0.3s;
+}
+
+.corpo{
+    background-color: white;
+    min-height:420px;
+    padding:35px;
+    text-align: justify;
+}
+
+.rodape{
+    background-color: #232323;
+    color:#999999;
+    height:200px;
+    font-size: 0.8rem;
+    padding: 20px;
+}
+
+.links{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    font-size: 17px;
+}
+
+.conteudo{
+    color: white;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    font-size: 17px; 
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.redes-sociais{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.redes-sociais img{
+    width: 25px;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+h3{
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: yellow;
+    font-style: italic;
+    background-color: rgb(26, 26, 138);
+    display: inline;
+}
+
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn{
+   padding: 19px 19px;
+   font-size: 1.1rem;
+   font-weight: 700;
+   margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: gray;
+    transition: 0.8s;
+}
+
+.btn-success{
+    background-color: green;
+    color: white;
+    font-size: 1.1rem;
+    padding: 19px 19px;
+}
+
+.btn-success:hover{
+    background-color: rgb(25, 95, 25);
+    transition: 0.5s; 
+}
+
+.btn-danger{
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+    padding: 19px 19px;
+}
+
+.btn-danger:hover{
+    background-color: rgb(146, 22, 22);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
